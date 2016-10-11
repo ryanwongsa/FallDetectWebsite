@@ -5,3 +5,4 @@ Application
 - Web interface to for administration to manage
 - Send fall checkups to staff via Android Smart Watch
 
+Masters Team Project
