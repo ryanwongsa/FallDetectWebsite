@@ -6,3 +6,5 @@ Application
 - Send fall checkups to staff via Android Smart Watch
 
 Masters Team Project
+https://chi2017.acm.org/researchcompetition.html
+https://chi2017.acm.org/designcompetition.html
