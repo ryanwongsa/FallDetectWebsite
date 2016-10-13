@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Android Fall Detect</string>
+
+    <!-- SharedPreferences file name -->
+    <string name="pref_previously_started">fall-detect_previously_started</string>
+
+    <string name="title_activity_main">Welcome to Android Fall-Detect</string>
+    <string name="notice_activity_main">Please leave app running to detect falls</string>
+
+    <string name="accelerometer_service">Fall Detection Service</string>
+    <string name="service_notification_text">Fall detection is active</string>
+
+    <string name="fall_detected_notif_title">Fall Detected!</string>
+    <string name="fall_detected_notif_message">Fall has been detected. Are you okay?</string>
+    <string name="fall_detected_notif_user_okay">I\'m okay</string>
+
+    <string name="image_description">Application icon</string>
+
+
+    <!-- Volley stuff -->
+    <string name="volley_text">No request made</string>
+    <string name="http_get_request_failed">"HTTP Get request failed"</string>
+    <string name="http_post_request_failed">HTTP Post request failed"</string>
+
+
+    <!-- Ethics stuff -->
+    <string name="agree_button">Agree</string>
+    
+    <string name="ethics_1st_para">This app has been developed at the University of Glasgow Computing Science department in a student project. We have developed this app to study how it is used. For this purpose, we will collect data from the app and upload it to our servers for analysis. The data we collect includes: your device id; what screens you visit in the app; what times you use the app; what device you use; and information about your connectivity. The data will not be shared with anyone except other researchers.  As far as possible, your participation in the study will be kept confidential and the data will be made anonymous. The outcomes and findings of this research will be made freely available in the form of academic publications and presentations.</string>
+    <string name="ethics_2nd_para">By installing and using this app you are participating in our research. If you are under 16 years of age, or you do not agree to participate, please stop using this app. You can contact us at any time if you would like further information, to opt out, or for us to delete data:</string>
+    <string name="ethics_3rd_para">By agreeing to the terms and conditions of this application you agree that:</string>
+    
+    <string name="ethics_list_item_1"> • You understand that the app has been developed at the University of Glasgow for research purposes.</string>
+    <string name="ethics_list_item_2"> • You are aged 16 or over.</string>
+    <string name="ethics_list_item_3"> • You have had the opportunity to read the information above.</string>
+    <string name="ethics_list_item_4"> • You understand that you are free to withdraw from the study at any time, without giving any reason, and without your legal rights being affected.</string>
+    <string name="ethics_list_item_5"> • You agree to take part in our research.</string>
+
+    <string name="dev_email_address">alexander.morgan.dev@gmail.com</string>
+    <string name="ethics_welcome_header">Welcome to Android Fall-Detect</string>
+</resources>

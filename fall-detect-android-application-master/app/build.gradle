@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        applicationId "uk.ac.gla.alexmtmorgan.falldetect"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.2.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile files('libs/khandroid-httpclient-4.2.3.jar')
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.google.code.gson:gson:2.4'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.jaredrummler:android-device-names:1.0.7'
+    compile 'com.android.support:support-v4:23.2.1'
+    androidTestCompile 'org.testng:testng:6.9.6'
+}
+
+
+android {
+    useLibrary 'org.apache.http.legacy'
+}
